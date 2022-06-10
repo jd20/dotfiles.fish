@@ -17,8 +17,7 @@
 	ui = true
 [core]
 	excludesfile = ~/.gitignore
-	editor = vim
-	compression = -1
+	editor = code --wait
 	autocrlf = input
 	whitespace = trailing-space,space-before-tab
 	precomposeunicode = true
@@ -47,3 +46,7 @@
 	template = ~/.dotfiles/git/template.txt
 [log]
 	showSignature = false
+[pull]
+    ff = only
+[init]
+    defaultBranch = main

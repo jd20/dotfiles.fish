@@ -1,2 +1,4 @@
---theme="Nord"
+--theme="Dracula"
 -n
+-p
+--plain
